@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main" xmlns:mvn="antlib:org.apache.maven.ant.tasks">
+    <mvn:attachartifact file="P:\GitHub\org.condast.commons\Workspace\org.condast.commons.features.karaf/target/features.xml" classifier="features" type="xml" />
+  </target>
+</project>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='org.condast.commons.tools.karaf.launch' version='1.0.0.202610311854'>
+    <properties size='8'>
+      <property name='artifact.size' value='20645'/>
+      <property name='download.size' value='20645'/>
+      <property name='download.checksum.sha-512' value='e508aba3d304e76a5f281ec77ac0f8559c1988323ee92cbc10d2ffcaf81a3f2818005efb01ceddad54423689d5cb7c6a6e7044512c669089f119fd40a257d495'/>
+      <property name='download.checksum.sha-256' value='724b58174a19d2f700fa1b8692f5f248cf32ae0549464e7d0a87c2f2cc90db70'/>
+      <property name='maven-groupId' value='org.condast.commons.tools'/>
+      <property name='maven-artifactId' value='org.condast.commons.tools.karaf.launch'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+</artifacts>

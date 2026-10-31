@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='org.eclipse.update.feature' id='org.condast.commons.tools.feature' version='1.0.0.202610311854'>
+    <properties size='9'>
+      <property name='artifact.size' value='704'/>
+      <property name='download.size' value='704'/>
+      <property name='download.checksum.sha-512' value='d703c7f922ae20f0daceb76dd4104ffccb8acb44b88bc282547aedd0471ffabab795198b4a7c54304839cfdb1c14dcb78bdc78195ea9b5b81820e8fad163f17a'/>
+      <property name='download.checksum.sha-256' value='f14bfb673e51675089484505cb18f4118c15128046d5b7dead264ba3a9b2541c'/>
+      <property name='maven-groupId' value='org.condast.commons.tools'/>
+      <property name='maven-artifactId' value='org.condast.commons.tools.feature'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-feature'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+</artifacts>

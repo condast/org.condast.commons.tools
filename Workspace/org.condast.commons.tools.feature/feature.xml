@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.condast.commons.tools.feature"
+      label="Condast Tooling Feature"
+      version="1.0.0.qualifier">
+
+   <description url="http://www.example.com/description">
+      This feature has tooling for Condast projects
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      2004-2026 Condast
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="org.condast.commons.tools.karaf.launch"
+         version="0.0.0"/>
+
+</feature>

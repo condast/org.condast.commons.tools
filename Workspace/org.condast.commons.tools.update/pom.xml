@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <p2.nexus.repo>http://localhost:8081/repository/eclipse-updates</p2.nexus.repo>
+    </properties>
+    
+	<!-- Link to the parent pom -->
+	<parent>
+		<artifactId>org.condast.commons.tools.parent</artifactId>
+		<groupId>org.condast.commons.tools</groupId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../org.condast.commons.tools.project</relativePath>
+	</parent>
+
+	<artifactId>org.condast.commons.tools.update</artifactId>
+    <packaging>eclipse-repository</packaging>
+   
+    <build>
+   	   <plugins>
+          	<!-- Publish P2 to update site-->
+           	<plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>wagon-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <id>publish-p2</id>
+                        <phase>deploy</phase>
+                        <goals>
+                            <goal>upload</goal>
+                        </goals>
+                        <configuration>
+                            <fromDir>${p2.update.site}/repository</fromDir>
+                            <url>${p2.nexus.repo}</url>
+                            <toDir>${bundle.name}</toDir>
+                            <serverId>nexus-eclipse-updates</serverId>
+                            <includes>**/*</includes>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>		
+   	    </plugins>
+    </build>
+</project> 

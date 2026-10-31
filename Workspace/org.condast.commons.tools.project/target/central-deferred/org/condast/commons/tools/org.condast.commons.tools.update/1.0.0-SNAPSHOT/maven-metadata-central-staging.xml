@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.condast.commons.tools</groupId>
+  <artifactId>org.condast.commons.tools.update</artifactId>
+  <versioning>
+    <lastUpdated>20261031185455</lastUpdated>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>p2artifacts</classifier>
+        <extension>xml</extension>
+        <value>1.0.0-SNAPSHOT</value>
+        <updated>20261031185455</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>p2metadata</classifier>
+        <extension>xml</extension>
+        <value>1.0.0-SNAPSHOT</value>
+        <updated>20261031185455</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>zip</extension>
+        <value>1.0.0-SNAPSHOT</value>
+        <updated>20261031185455</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-SNAPSHOT</value>
+        <updated>20261031185455</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.0.0-SNAPSHOT</version>
+</metadata>

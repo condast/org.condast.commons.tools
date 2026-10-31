@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.condast.commons.tools</groupId>
+  <artifactId>org.condast.commons.tools.karaf.launch</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20261031185455</lastUpdated>
+  </versioning>
+</metadata>

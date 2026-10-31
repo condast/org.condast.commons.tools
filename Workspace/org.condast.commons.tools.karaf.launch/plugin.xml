@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+
+<plugin>
+
+   <!-- Apache Karaf Run Configuration -->
+   <extension
+         point="org.eclipse.debug.core.launchConfigurationTypes">
+
+      <launchConfigurationType
+            id="org.condast.commons.tools.karaf.launch.type"
+            name="Apache Karaf"
+            delegate="org.condast.commons.tools.karaf.launch.KarafLaunchDelegate"
+            icon="icons/karaf.png"
+            modes="debug, run"
+            public="true">
+      </launchConfigurationType>
+
+   </extension>
+
+   <!-- Configuration Tabs -->
+   <extension
+         point="org.eclipse.debug.ui.launchConfigurationTabGroups">
+
+      <launchConfigurationTabGroup
+            id="org.condast.commons.tools.karaf.launch.tabs"
+            type="org.condast.commons.tools.karaf.launch.type"
+            class="org.condast.commons.tools.karaf.launch.KarafLaunchTabGroup">
+      </launchConfigurationTabGroup>
+   </extension>
+   
+   <extension point="org.eclipse.debug.ui.launchConfigurationTypeImages">
+    <launchConfigurationTypeImage
+        id="org.condast.commons.tools.karaf.launch.image"
+        configTypeID="org.condast.commons.tools.karaf.launch.type"
+        icon="icons/karaf.png"/>
+</extension>
+
+</plugin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="org.condast.commons.tools.feature">
+      <category name="org.condast.commons.tools.update"/>
+   </feature>
+   <category-def name="org.condast.commons.tools.update" label="Commons Tools Update Site"/>
+</site>

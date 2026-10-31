@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><features name="${project.groupId}-${major.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.4.0">
+    <feature name="org.condast.commons.tools" version="${project.version}">
+        <bundle>mvn:${project.groupId}/org.condast.commons.tools.karaf.launch/${project.version}</bundle>
+    </feature>
+</features>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.condast.commons.tools.karaf.launch' version='1.0.0.202610311854' generation='2'>
+    <update id='org.condast.commons.tools.karaf.launch' range='[0.0.0,1.0.0.202610311854)' severity='0'/>
+    <properties size='6'>
+      <property name='org.eclipse.equinox.p2.name' value='Karaf Launch Configuration'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Condast'/>
+      <property name='maven-groupId' value='org.condast.commons.tools'/>
+      <property name='maven-artifactId' value='org.condast.commons.tools.karaf.launch'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.condast.commons.tools.karaf.launch' version='1.0.0.202610311854'/>
+      <provided namespace='osgi.bundle' name='org.condast.commons.tools.karaf.launch' version='1.0.0.202610311854'/>
+      <provided namespace='osgi.identity' name='org.condast.commons.tools.karaf.launch' version='1.0.0.202610311854'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='13'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='[3.0.0,4.0.0)'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='[3.0.0,4.0.0)'/>
+      <required namespace='java.package' name='org.eclipse.core.variables' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.debug.core' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.debug.core.model' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.debug.ui' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.swt' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.swt.events' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.swt.layout' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.swt.widgets' range='0.0.0'/>
+      <required namespace='java.package' name='org.osgi.framework' range='1.3.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'>
+        <filter>
+          (!(org.eclipse.equinox.p2.disable.require.capability.osgi.ee=true))
+        </filter>
+        <description>
+          org.condast.commons.tools.karaf.launch
+        </description>
+      </requiredProperties>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.condast.commons.tools.karaf.launch.source' range='[1.0.0.202610311854,1.0.0.202610311854]' optional='true'>
+        <filter>
+          (org.eclipse.update.install.sources=true)
+        </filter>
+      </required>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.condast.commons.tools.karaf.launch' version='1.0.0.202610311854'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.condast.commons.tools.karaf.launch;singleton:=true&#xA;Bundle-Version: 1.0.0.202610311854&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

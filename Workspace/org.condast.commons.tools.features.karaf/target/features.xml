@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><features name="org.condast.commons-1.0.0" xmlns="http://karaf.apache.org/xmlns/features/v1.4.0">
+    <feature name="org.condast.commons" version="1.0.0-SNAPSHOT">
+        <bundle>mvn:org.condast.commons/org.condast.commons/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.condast.commons/org.condast.commons.data/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.condast.commons/org.condast.commons.messaging/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.condast.commons/org.condast.commons.ui/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.condast.commons/org.condast.commons.autonomy/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.condast.commons/org.condast.commons.autonomy.ui/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.condast.commons/org.condast.commons.preferences/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.condast.commons/org.condast.commons.test/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.condast.commons/org.condast.commons.tinkerpop/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.condast.commons/org.condast.commons.ui.widgets/1.0.0-SNAPSHOT</bundle>
+    </feature>
+</features>
